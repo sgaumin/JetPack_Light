@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4463059570517639940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4463059570517639939}
+  - component: {fileID: 4463059570517639938}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4463059570517639939
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4463059570517639940}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.56, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4463059570517639938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4463059570517639940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e147c6f9a897849bac99bc4a917552, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnMoveSpeed: 4.5
+  RandomSpawnTimeFactor: 1.5
+  verticalVariations: 4.2
+  difficultyFactor: 1.05
+  timeDifficultyChange: 6
+  collectibles:
+  - {fileID: 7141377961733347203, guid: 0e959c832bffa7d469466b4a287abf7f, type: 3}
+  - {fileID: 7141377961733347203, guid: 0e959c832bffa7d469466b4a287abf7f, type: 3}
+  - {fileID: 7141377961733347203, guid: 0e959c832bffa7d469466b4a287abf7f, type: 3}
+  - {fileID: 7141377961733347203, guid: 0e959c832bffa7d469466b4a287abf7f, type: 3}
+  - {fileID: 7141377961733347203, guid: 0e959c832bffa7d469466b4a287abf7f, type: 3}
+  - {fileID: 7141377961733347203, guid: 0e959c832bffa7d469466b4a287abf7f, type: 3}
+  - {fileID: 7141377961733347203, guid: 0e959c832bffa7d469466b4a287abf7f, type: 3}
+  - {fileID: 7141377961733347203, guid: 0e959c832bffa7d469466b4a287abf7f, type: 3}
+  - {fileID: 7141377961733347203, guid: 0e959c832bffa7d469466b4a287abf7f, type: 3}
+  - {fileID: 1156921437813648076, guid: a338bc907a4da4046867e370b651d9dc, type: 3}
+  spawnTimeCollectibles: 1.2
+  obstacle: {fileID: 736258633, guid: 08345ead514a6c042b644cdfb1a06962, type: 3}
+  spawnTimeObstacles: 1.5
+  maxRotation: 45
